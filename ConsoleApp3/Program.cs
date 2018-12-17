@@ -14,9 +14,9 @@ namespace IFstatements
             double num01;
             double num02;
 
-            Console.Write("Enter a number to be devided: ");
+            Console.Write("Put a number ere lad! and I'll divide it: ");
             num01 = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Enter a number to divide by: ");
+            Console.Write("put a number ere to be divided by: ");
             num02 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine(num01 + " divide by " + num02 + " is equal to " + num01 / num02);
