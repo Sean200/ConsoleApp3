@@ -21,9 +21,20 @@ namespace IFstatements
             Console.Write("put a number ere to be divided by: ");
             num02 = Convert.ToDouble(Console.ReadLine());
 
-            // maj note - validate your values here
+            string start = "0";
 
-            Console.WriteLine(num01 + " divide by " + num02 + " is equal to " + num01 / num02);
+            if (Start = 0) 
+            {
+                Console.WriteLine("error");
+            }
+            else
+            {
+                Console.WriteLine("Can't be devided");
+             
+            
+
+                Console.WriteLine(num01 + " divide by " + num02 + " is equal to " + num01 / num02);
+            
 
             Console.ReadKey();
             Console.WriteLine(); //Gonna read up on how to loop the application, but this is what i have so far. 
